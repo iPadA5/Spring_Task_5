@@ -10,7 +10,7 @@ import java.util.List;
 public class CarService {
 
     public List<Car> getCars() {
-        List<Car> cars = new ArrayList<Car>();
+        List<Car> cars = new ArrayList();
         cars.add(new Car("Porcshe", 1985, "Yellow"));
         cars.add(new Car("Toyota", 1986, "Blue"));
         cars.add(new Car("Mercedes", 1987, "Red"));
